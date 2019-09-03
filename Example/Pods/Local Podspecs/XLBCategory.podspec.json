@@ -1,0 +1,22 @@
+{
+  "name": "XLBCategory",
+  "version": "0.1.0",
+  "summary": "A short description of XLBCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yanwenbo_78201@163.com/XLBCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yanwenbo_78201@163.com": "yanwenbo_78201@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yanwenbo_78201@163.com/XLBCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XLBCategory/Classes/**/*"
+}

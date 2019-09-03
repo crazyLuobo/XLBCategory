@@ -1,0 +1,6 @@
+framework module Pods_XLBCategory_Tests {
+  umbrella header "Pods-XLBCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

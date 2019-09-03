@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XLBCategory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XLBCategory.'
+  s.summary          = '通用的各种分类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yanwenbo_78201@163.com/XLBCategory'
+  s.homepage         = 'https://github.com/crazyLuobo/XLBCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yanwenbo_78201@163.com' => 'yanwenbo_78201@163.com' }
-  s.source           = { :git => 'https://github.com/yanwenbo_78201@163.com/XLBCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/crazyLuobo/XLBCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'XLBCategory' => ['XLBCategory/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,6 @@
+framework module XLBCategory {
+  umbrella header "XLBCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
