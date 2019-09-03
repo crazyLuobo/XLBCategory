@@ -1,0 +1,6 @@
+framework module LKbadgeView {
+  umbrella header "LKbadgeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

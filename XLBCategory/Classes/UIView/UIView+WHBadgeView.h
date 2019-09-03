@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LKBadgeView.h"
-
+#import <LKbadgeView/LKbadgeView.h>
 @interface WHCircleView : UIView
 
 @end

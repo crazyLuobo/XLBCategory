@@ -36,7 +36,7 @@
 
     if ((rect.size.height - self.font.lineHeight) <= style.lineSpacing) {
 
-        if ([Utilities isHaveChineseInString:self.text]) {  //如果包含中文
+        if ([self isHaveChineseInString:self.text]) {  //如果包含中文
             rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height-style.lineSpacing);
 
         }
@@ -45,6 +45,17 @@
 
     return rect;
 
+}
+
+- (BOOL)isHaveChineseInString:(NSString *)string
+{
+    for(NSInteger i = 0; i < [string length]; i++){
+        int a = [string characterAtIndex:i];
+        if (a > 0x4e00 && a < 0x9fff) {
+            return YES;
+        }
+    }
+    return NO;
 }
 
 @end

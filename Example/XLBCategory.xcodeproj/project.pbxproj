@@ -303,10 +303,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XLBCategory_Example/Pods-XLBCategory_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LKbadgeView/LKbadgeView.framework",
 				"${BUILT_PRODUCTS_DIR}/XLBCategory/XLBCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKbadgeView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLBCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

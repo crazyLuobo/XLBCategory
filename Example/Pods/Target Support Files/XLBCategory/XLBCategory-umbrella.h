@@ -12,7 +12,6 @@
 
 #import "NSDate+Category.h"
 #import "NSDateFormatter+Category.h"
-#import "NSString+Extension.h"
 #import "UIButton+EnlargeHitArea.h"
 #import "UIButton+Type.h"
 #import "UIColor+Hex.h"
@@ -28,7 +27,6 @@
 #import "UIScrollView+Extensions.h"
 #import "UIScrollView+HeaderScaleImage.h"
 #import "UIScrollView+UITouch.h"
-#import "UITableView+IndexTip.h"
 #import "UIView+Additions.h"
 #import "UIView+Corner.h"
 #import "UIView+WHBadgeView.h"
