@@ -4,9 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LKbadgeView (1.1.0)
-  - XLBCategory (0.1.0):
-    - LKbadgeView
+  - XLBCategory (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -15,7 +13,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
-    - LKbadgeView
 
 EXTERNAL SOURCES:
   XLBCategory:
@@ -23,8 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LKbadgeView: 35e7ecee61ef8e8282902ee79332b3b0b5efa5a9
-  XLBCategory: 577823d0e5f9dc7a7e37fe63617ca9b3d9dbcf18
+  XLBCategory: 2a91eefac576b8ba44d3cf978692b15d6815ddbb
 
 PODFILE CHECKSUM: 55f5c2e96bfc198acc6214f4a5c10f7bc99e66a6
 

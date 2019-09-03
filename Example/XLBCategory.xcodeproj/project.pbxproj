@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1CDDA11C83D81BD2EAEC36E2 /* Pods_XLBCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EFB0E40528A6839C9FF293 /* Pods-XLBCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBCategory_Example.release.xcconfig"; path = "Target Support Files/Pods-XLBCategory_Example/Pods-XLBCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C45F02AAF3844E9A35A3A94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C45F02AAF3844E9A35A3A94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54ABCA3D55D46E4219DC4440 /* Pods_XLBCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XLBCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLBCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EDA633CA5B6E865DD0AA1A6 /* Pods-XLBCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBCategory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XLBCategory_Tests/Pods-XLBCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC854D692D8E227E19D07F24 /* Pods-XLBCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBCategory_Tests.release.xcconfig"; path = "Target Support Files/Pods-XLBCategory_Tests/Pods-XLBCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F0BF6E62DF74BD41A19616EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F75CE1030711A4BCA04E2693 /* XLBCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XLBCategory.podspec; path = ../XLBCategory.podspec; sourceTree = "<group>"; };
+		F0BF6E62DF74BD41A19616EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F75CE1030711A4BCA04E2693 /* XLBCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XLBCategory.podspec; path = ../XLBCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				8EDA633CA5B6E865DD0AA1A6 /* Pods-XLBCategory_Tests.debug.xcconfig */,
 				AC854D692D8E227E19D07F24 /* Pods-XLBCategory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,12 +303,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XLBCategory_Example/Pods-XLBCategory_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LKbadgeView/LKbadgeView.framework",
 				"${BUILT_PRODUCTS_DIR}/XLBCategory/XLBCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKbadgeView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLBCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
