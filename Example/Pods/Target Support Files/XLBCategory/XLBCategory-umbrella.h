@@ -23,10 +23,6 @@
 #import "UIScrollView+Extensions.h"
 #import "UIScrollView+HeaderScaleImage.h"
 #import "UIScrollView+UITouch.h"
-#import "UIView+Additions.h"
-#import "UIView+Corner.h"
-#import "UIView+WHBadgeView.h"
-#import "UIViewExt.h"
 
 FOUNDATION_EXPORT double XLBCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char XLBCategoryVersionString[];
