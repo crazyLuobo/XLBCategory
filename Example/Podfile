@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XLBCategory_Example' do
+  pod 'XLBCategory', :path => '../'
+
+  target 'XLBCategory_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
